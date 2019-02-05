@@ -3,7 +3,8 @@ MAINTAINER Carl Bäckström
 
 RUN apt-get update && apt-get install -y \
     ruby-dev \
-    make
+    make \
+    gcc
 
 RUN gem install listen
 RUN gem install compass
