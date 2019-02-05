@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Antonio Manuel Hernández Sánchez
+FROM ubuntu:18.04
+MAINTAINER Carl Bäckström
 
 RUN apt-get update && apt-get install -y \
     ruby-dev \
